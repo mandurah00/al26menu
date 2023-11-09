@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgBlue"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/alag26" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/storefront"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/white">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/menu"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/white">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/itm_wings"
+            android:textSize="17sp"
+            android:textColor="@color/hlGold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnWings"
+            android:layout_weight="1"
+            android:text="Order"
+            android:onClick="add_to_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/itm_nachos"
+            android:textSize="17sp"
+            android:textColor="@color/hlGold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnNachos"
+            android:layout_weight="1"
+            android:text="Order"
+            android:onClick="add_to_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/itm_dog"
+            android:textSize="17sp"
+            android:textColor="@color/hlGold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnDog"
+            android:layout_weight="1"
+            android:text="Order"
+            android:onClick="add_to_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/itm_burger"
+            android:textSize="17sp"
+            android:textColor="@color/hlGold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnBurger"
+            android:layout_weight="1"
+            android:text="Order"
+            android:onClick="add_to_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/itm_chicken"
+            android:textSize="17sp"
+            android:textColor="@color/hlGold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnChicken"
+            android:layout_weight="1"
+            android:text="Order"
+            android:onClick="add_to_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/itm_fries"
+            android:textSize="17sp"
+            android:textColor="@color/hlGold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnFries"
+            android:layout_weight="1"
+            android:text="Order"
+            android:onClick="add_to_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/itm_rings"
+            android:textSize="17sp"
+            android:textColor="@color/hlGold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnRings"
+            android:layout_weight="1"
+            android:text="Order"
+            android:onClick="add_to_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/itm_soda"
+            android:textSize="17sp"
+            android:textColor="@color/hlGold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnSoda"
+            android:layout_weight="1"
+            android:text="Order"
+            android:onClick="add_to_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/orderInst"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/white">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp" >
+
+        <Button
+            android:onClick="reviewOrder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="@string/goCheckOut"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+</LinearLayout>

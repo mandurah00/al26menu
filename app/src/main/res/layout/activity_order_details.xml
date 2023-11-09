@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgBlue"
+    tools:context=".OrderDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/alag26" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/storefront"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/white">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/goCheckOut"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/white">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingHorizontal="10dp" >
+
+        <TextView
+            android:id="@+id/orderView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingHorizontal="10dp"
+            android:background="@color/white"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="10dp" >
+
+        <EditText
+            android:id="@+id/txtInputName"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:background="@color/white"
+            android:ems="13"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:hint="@string/orderName"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:id="@+id/priceView"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:hint="@string/priceView"
+            />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="10dp" >
+
+        <Button
+            android:onClick="mainMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="10dp"
+            android:text="@string/restart"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="10dp" >
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="mainMenu"
+            android:text="@string/placeOrder"
+            android:backgroundTint="@color/bsBlue" />
+
+    </LinearLayout>
+
+</LinearLayout>

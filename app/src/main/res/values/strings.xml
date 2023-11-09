@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dan\'s Order Food App</string>
+    <string name="storefront">American Grill Post 26</string>
+    <string name="menu">Menu</string>
+    <string name="restart">Restart Order</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="goCheckOut">Review Order</string>
+    <string name="orderInst">- Click \'ORDER\' repeatedly for multiple items -</string>
+    <string name="orderName">Order For</string>
+    <string name="priceView">Total Price</string>
+    <string name="itm_wings">Bone-In Wings ($8)</string>
+    <string name="itm_nachos">Nachos &amp; Cheese ($5)</string>
+    <string name="itm_dog">Grilled All Beef Dog ($5)</string>
+    <string name="itm_burger">Green Chili Burger ($7)</string>
+    <string name="itm_chicken">Grilled Chicken sandwich ($8)</string>
+    <string name="itm_fries">French Fries ($3)</string>
+    <string name="itm_rings">Beer Battered\nOnion Rings ($4)</string>
+    <string name="itm_soda">Soda Pops ($1)</string>
+</resources>
