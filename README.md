@@ -117,7 +117,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@_DanWilson](https://www.linkedin.com/in/idanwilson/) - phoobah@gmail.com
+Your Name - [@_DanWilson](https://www.linkedin.com/in/idanwilson/) - hello@danwilson.dev
 
 Project Link: [https://github.com/mandurah00/al26menu](https://github.com/mandurah00/al26menu)
 
