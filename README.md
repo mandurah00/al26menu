@@ -129,6 +129,7 @@ Project Link: [https://github.com/mandurah00/al26menu](https://github.com/mandur
 ## Acknowledgments
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [Basic Syntax Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 * [Choose an Open Source License](https://choosealicense.com)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
