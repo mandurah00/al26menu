@@ -10,6 +10,7 @@
   </a>
 
   <h1 align="center">AL26 Kitchen Menu Order app</h1>
+  <h2 align="center">al26menu</h2>
 </div>
 
 
