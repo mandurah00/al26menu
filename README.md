@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/mandurah00/al26menu">
-    <img src="https://danwilson.dev/meta/ReadMe_dwdev.gif" alt="Logo">
+    <img src="https://danwilson.dev/meta/ReadMe_al26.gif" alt="Logo">
   </a>
 
   <h1 align="center">AL26 Kitchen Menu Order app</h1>
