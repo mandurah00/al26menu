@@ -145,6 +145,6 @@ Project Link: [https://github.com/mandurah00/al26menu](https://github.com/mandur
 [license-url]: https://github.com/mandurah00/al26menu/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/idanwilson/
-[product-screenshot]: https://danwilson.dev/assets/al26menu-347cb713.png
+[product-screenshot]: https://danwilson.dev/assets/al26menu-389507a2.png
 [AndroidStudio]: https://img.shields.io/badge/Android-35495E?style=for-the-badge&logo=android&logoColor=4FC08D
 [Android-url]: https://developer.android.com/
